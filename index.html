@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+
+  
+  <title>News homepage</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/Style.css">
+</head>
+<body>
+<header class="cabeca">
+  <h1>W.</h1>
+  <nav class="menu"> 
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Novo</a></li>
+      <li><a href="#">Popular</a></li>
+      <li><a href="#">No momento</a></li>
+      <li><a href="#">Categorias</a></li>
+    </ul>
+  </nav>
+  <div class="menu-mobile">
+    <div class="botao-menu">
+      <button onclick="menuShow()"><img src="./assets/images/icon-menu.svg"></button>
+    </div>
+    <nav class="menu-celular">
+      <button onclick="closeMenu()"><img src="./assets/images/icon-menu-close.svg"></button> 
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Novo</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">No momento</a></li>
+        <li><a href="#">Categorias</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="manchetes">
+  <div class="destaque">
+    <img src="./assets/images/image-web-3-desktop.jpg" alt="1">
+    <h1>O brilhante futuro da Web 3.0?</h1>
+    <p>Mergulhamos na próxima evolução da web que afirma colocar o poder das plataformas de volta nas mãos das pessoas.
+      Mas está realmente cumprindo sua promessa?</p>
+      <button>Leia mais!</button>
+  </div>
+  <div class="novas">
+    <div class="new">
+      <h1>Novo</h1>
+      <div class="noticia">
+        <h2>Hidrogênio VS Carros Elétricos</h2>
+        <p>Os carros movidos a hidrogênio alcançarão os EVs?</p>
+      </div>
+      <div class="noticia">
+        <h2>As desvantagens da arte da IA</h2>
+        <p>Quais são os possíveis efeitos adversos da geração de imagem de IA sob demanda?</p>
+      </div>
+      <div class="noticia">
+        <h2>O financiamento de VC está secando?</h2>
+        <p>O financiamento privado por empresas de capital de risco caiu 50% no ano. Nós damos uma olhada no que isso significa.</p>
+      </div>
+    </div>
+  </div>
+  <div class="popular">
+    <div class="ordem">
+      <div class="populares">
+        <img src="./assets/images/image-retro-pcs.jpg" alt="">
+        <h1>01</h1>
+        <h2>Revivendo PCs Retrô</h2>
+        <p>O que acontece quando PCs antigos recebem atualizações modernas?</p>
+      </div>
+      <div class="populares">
+        <img src="./assets/images/image-gaming-growth.jpg" alt="">
+        <h1>02</h1>
+        <h2>Os 10 melhores laptops de 2022</h2>
+        <p>Nossas melhores escolhas para várias necessidades e orçamentos.</p>
+      </div>
+      <div class="populares">
+        <img src="./assets/images/image-retro-pcs.jpg" alt="">
+        <h1>03</h1>
+        <h2>O crescimento dos jogos</h2>
+        <p>Como a pandemia gerou novas oportunidades.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
